@@ -11,7 +11,7 @@ import json
 
 from ask_sdk_core.skill_builder import CustomSkillBuilder, SkillBuilder
 from ask_sdk_core.dispatch_components import (AbstractRequestHandler, AbstractResponseInterceptor, AbstractRequestInterceptor, AbstractExceptionHandler)
-from ask_sdk_core.utils import (ask_utils, is_intent_name , is_request_type , get_intent_name)
+from ask_sdk_core.utils import (is_intent_name , is_request_type , get_intent_name)
 from ask_sdk_core.api_client import DefaultApiClient
 from ask_sdk_core.handler_input import HandlerInput
 
